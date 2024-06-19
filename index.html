@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <!-- cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- style -->
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container" id="container">
+        <div class="form-container cadastro">
+           <form>
+                <h1 id="cadas">Cadastre-se</h1>
+                <div class="social-icon">
+                    <a href="#" class="icone"><img src="./logos/google.svg" alt=""></a>
+                    <a href="#" class="icone"><img src="./logos/facebook.svg" alt=""></i></a>
+                    <a href="#" class="icone"><img src="./logos/git.svg" alt=""></a>
+                    <a href="#" class="icone"><img src="./logos/linkedin.svg" alt=""></i></a>
+                </div>
+                <span>ou use seu email para cadastro</span>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button>Cadastre-se</button>
+           </form> 
+        </div>
+        <div class="form-container login">
+            <form>
+                 <h1 id="login-1">Login</h1>
+                 <div class="social-icon">
+                     <a href="#" class="icone"><img src="./logos/google.svg" alt=""></a>
+                     <a href="#" class="icone"><img src="./logos/facebook.svg" alt=""></i></a>
+                     <a href="#" class="icone"><img src="./logos/git.svg" alt=""></a>
+                     <a href="#" class="icone"><img src="./logos/linkedin.svg" alt=""></i></a>
+                 </div>
+                 <span>ou use seu email e senha</span>
+                 <input type="email" placeholder="Email">
+                 <input type="password" placeholder="Senha">
+                 <a href="#">Esqueceu a senha?</a>
+                 <button>Login</button>
+            </form> 
+         </div>
+         <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1 class="bv">Bem vindo!</h1>
+                    <p id="bv">Insira seus dados pessoais para 
+                        usar todos os recursos do site
+                    </p>
+                    <button class="hidden" id="login-2">Login</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1 class="crie">Crie sua conta!</h1>
+                    <p class="crie">Registre seus dados pessoais para 
+                        usar todos os recursos do site
+                    </p>
+                    <button class="hidden" id="cadastre-se">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+   </div>
+    <script src="./script.js"></script>
+</body>
+</html>
